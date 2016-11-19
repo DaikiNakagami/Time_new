@@ -19,7 +19,15 @@ class MainViewController: UIViewController {
     @IBAction func showBtn(_ sender: UIButton) {
         
         
+        let age: Int? = Int(ageLabel.text!)
+        let money: Int? = Int(moneyLabel.text!)
+        let hour: Int? = Int(hourLabel.text!)
         
+        let count = money! / 2100
+        
+        
+        
+        print(count)
         
         
     }
